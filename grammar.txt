@@ -1,0 +1,27 @@
+#JSGF V1.0;
+grammar sentence;
+ 
+public <sentence> =
+[<dato0>]
+[<dato1>]
+[<dato2>]
+[<dato3>]
+[<dato4>]
+[<dato1><dato2><dato3><dato4>]
+[<dato5>][<dato6>][<dato7>][<dato8>][<dato9>][<dato10>][<dato11>][<dato12>][<dato13>][<dato14>];
+ 
+<dato0>=This afternoon;
+<dato1>=Run;
+<dato2>=Programacion;
+<dato3>=Orientada;
+<dato4>=Objetos;
+<dato5>=Fintrad;
+<dato6>=Clases;
+<dato7>=Horario;
+<dato8>=Amigo;
+<dato9>=Radio;
+<dato10>=Informatica;
+<dato11>=Ingenieria;
+<dato12>=One;
+<dato13>=Friend;
+<dato14>=Television;
